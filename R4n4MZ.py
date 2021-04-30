@@ -431,8 +431,9 @@ def pilih_super():
 	print "\033[1;32;40m[+] Total OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;31;40m/\033[1;36;40m"+str(len(cekpoint))
 	print '\033[1;34;40m[+] CP File Has Been Saved : save/MZ.txt'
 	print """
-           """
-	raw_input("\n\033[1;96m[\033[1;97mExit\033[1;96m]")
+
+
+raw_input("\n\033[1;96m[\033[1;97mExit\033[1;96m]")
 	super()
 
 def brute():
